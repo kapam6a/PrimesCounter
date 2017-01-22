@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5c8-9Z-Xsf">
+                                <rect key="frame" x="60" y="80" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.80644333964646464" green="0.80644333964646464" blue="0.80644333964646464" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDv-gg-g6W">
+                                <rect key="frame" x="130" y="130" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.80644333964646464" green="0.80644333964646464" blue="0.80644333964646464" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5TI-9E-lUd"/>
+                                    <constraint firstAttribute="width" constant="60" id="rfM-Pe-lhC"/>
+                                </constraints>
+                                <state key="normal" title="Count"/>
+                                <connections>
+                                    <action selector="didPressCountButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="td3-eK-ckb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65t-wu-fpg">
+                                <rect key="frame" x="60" y="180" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.80644333964646464" green="0.80644333964646464" blue="0.80644333964646464" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Y0Q-Rl-9D9"/>
+                                    <constraint firstAttribute="width" constant="200" id="smg-uN-PVy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="65t-wu-fpg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Wd-9H-Np0"/>
+                            <constraint firstItem="5c8-9Z-Xsf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="TTe-pi-Ylz"/>
+                            <constraint firstItem="5c8-9Z-Xsf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Zg7-en-fDl"/>
+                            <constraint firstItem="65t-wu-fpg" firstAttribute="top" secondItem="IDv-gg-g6W" secondAttribute="bottom" constant="20" id="bg5-fq-W4p"/>
+                            <constraint firstAttribute="trailing" secondItem="5c8-9Z-Xsf" secondAttribute="trailing" constant="60" id="ohg-iN-Y6b"/>
+                            <constraint firstItem="IDv-gg-g6W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tJM-XU-MB0"/>
+                            <constraint firstItem="IDv-gg-g6W" firstAttribute="top" secondItem="5c8-9Z-Xsf" secondAttribute="bottom" constant="20" id="wut-A2-5Bl"/>
+                            <constraint firstItem="5c8-9Z-Xsf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zpY-fe-OeX"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="inputTextField" destination="5c8-9Z-Xsf" id="U0b-6H-mUK"/>
+                        <outlet property="outputLabel" destination="65t-wu-fpg" id="U8U-qb-OUa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="317"/>
+        </scene>
+    </scenes>
+</document>

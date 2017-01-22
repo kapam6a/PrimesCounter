@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0CF51401E33BEC600906C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF513F1E33BEC600906C12 /* main.m */; };
+		C0CF51431E33BEC600906C12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF51421E33BEC600906C12 /* AppDelegate.m */; };
+		C0CF51461E33BEC600906C12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF51451E33BEC600906C12 /* ViewController.m */; };
+		C0CF51491E33BEC600906C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CF51471E33BEC600906C12 /* Main.storyboard */; };
+		C0CF514B1E33BEC600906C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CF514A1E33BEC600906C12 /* Assets.xcassets */; };
+		C0CF514E1E33BEC600906C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CF514C1E33BEC600906C12 /* LaunchScreen.storyboard */; };
+		C0CF51651E34A59A00906C12 /* PrimesCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF51641E34A59A00906C12 /* PrimesCounter.m */; };
+		C0CF51671E34A7A100906C12 /* PrimesCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CF51661E34A7A100906C12 /* PrimesCounterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0CF515E1E349F4F00906C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0CF51331E33BEC500906C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0CF513A1E33BEC500906C12;
+			remoteInfo = AYAPrimesCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0CF513B1E33BEC600906C12 /* AYAPrimesCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYAPrimesCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CF513F1E33BEC600906C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0CF51411E33BEC600906C12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0CF51421E33BEC600906C12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0CF51441E33BEC600906C12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0CF51451E33BEC600906C12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0CF51481E33BEC600906C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0CF514A1E33BEC600906C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0CF514D1E33BEC600906C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0CF514F1E33BEC600906C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CF51591E349F4F00906C12 /* AYAPrimesCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYAPrimesCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CF515D1E349F4F00906C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CF51631E34A59A00906C12 /* PrimesCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimesCounter.h; sourceTree = "<group>"; };
+		C0CF51641E34A59A00906C12 /* PrimesCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimesCounter.m; sourceTree = "<group>"; };
+		C0CF51661E34A7A100906C12 /* PrimesCounterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimesCounterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0CF51381E33BEC500906C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CF51561E349F4F00906C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0CF51321E33BEC500906C12 = {
+			isa = PBXGroup;
+			children = (
+				C0CF513D1E33BEC600906C12 /* AYAPrimesCounter */,
+				C0CF515A1E349F4F00906C12 /* AYAPrimesCounterTests */,
+				C0CF513C1E33BEC600906C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0CF513C1E33BEC600906C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF513B1E33BEC600906C12 /* AYAPrimesCounter.app */,
+				C0CF51591E349F4F00906C12 /* AYAPrimesCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CF513D1E33BEC600906C12 /* AYAPrimesCounter */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF51411E33BEC600906C12 /* AppDelegate.h */,
+				C0CF51421E33BEC600906C12 /* AppDelegate.m */,
+				C0CF51631E34A59A00906C12 /* PrimesCounter.h */,
+				C0CF51641E34A59A00906C12 /* PrimesCounter.m */,
+				C0CF51441E33BEC600906C12 /* ViewController.h */,
+				C0CF51451E33BEC600906C12 /* ViewController.m */,
+				C0CF51471E33BEC600906C12 /* Main.storyboard */,
+				C0CF514A1E33BEC600906C12 /* Assets.xcassets */,
+				C0CF514C1E33BEC600906C12 /* LaunchScreen.storyboard */,
+				C0CF514F1E33BEC600906C12 /* Info.plist */,
+				C0CF513E1E33BEC600906C12 /* Supporting Files */,
+			);
+			path = AYAPrimesCounter;
+			sourceTree = "<group>";
+		};
+		C0CF513E1E33BEC600906C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF513F1E33BEC600906C12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0CF515A1E349F4F00906C12 /* AYAPrimesCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF515D1E349F4F00906C12 /* Info.plist */,
+				C0CF51661E34A7A100906C12 /* PrimesCounterTests.m */,
+			);
+			path = AYAPrimesCounterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0CF513A1E33BEC500906C12 /* AYAPrimesCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CF51521E33BEC600906C12 /* Build configuration list for PBXNativeTarget "AYAPrimesCounter" */;
+			buildPhases = (
+				C0CF51371E33BEC500906C12 /* Sources */,
+				C0CF51381E33BEC500906C12 /* Frameworks */,
+				C0CF51391E33BEC500906C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYAPrimesCounter;
+			productName = AYAPrimesCounter;
+			productReference = C0CF513B1E33BEC600906C12 /* AYAPrimesCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0CF51581E349F4F00906C12 /* AYAPrimesCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CF51601E349F4F00906C12 /* Build configuration list for PBXNativeTarget "AYAPrimesCounterTests" */;
+			buildPhases = (
+				C0CF51551E349F4F00906C12 /* Sources */,
+				C0CF51561E349F4F00906C12 /* Frameworks */,
+				C0CF51571E349F4F00906C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0CF515F1E349F4F00906C12 /* PBXTargetDependency */,
+			);
+			name = AYAPrimesCounterTests;
+			productName = AYAPrimesCounterTests;
+			productReference = C0CF51591E349F4F00906C12 /* AYAPrimesCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0CF51331E33BEC500906C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kapam6a;
+				TargetAttributes = {
+					C0CF513A1E33BEC500906C12 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0CF51581E349F4F00906C12 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L3B2AFZ96U;
+						TestTargetID = C0CF513A1E33BEC500906C12;
+					};
+				};
+			};
+			buildConfigurationList = C0CF51361E33BEC500906C12 /* Build configuration list for PBXProject "AYAPrimesCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0CF51321E33BEC500906C12;
+			productRefGroup = C0CF513C1E33BEC600906C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0CF513A1E33BEC500906C12 /* AYAPrimesCounter */,
+				C0CF51581E349F4F00906C12 /* AYAPrimesCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0CF51391E33BEC500906C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CF514E1E33BEC600906C12 /* LaunchScreen.storyboard in Resources */,
+				C0CF514B1E33BEC600906C12 /* Assets.xcassets in Resources */,
+				C0CF51491E33BEC600906C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CF51571E349F4F00906C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CF51371E33BEC500906C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CF51461E33BEC600906C12 /* ViewController.m in Sources */,
+				C0CF51431E33BEC600906C12 /* AppDelegate.m in Sources */,
+				C0CF51651E34A59A00906C12 /* PrimesCounter.m in Sources */,
+				C0CF51401E33BEC600906C12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CF51551E349F4F00906C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CF51671E34A7A100906C12 /* PrimesCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0CF515F1E349F4F00906C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0CF513A1E33BEC500906C12 /* AYAPrimesCounter */;
+			targetProxy = C0CF515E1E349F4F00906C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0CF51471E33BEC600906C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CF51481E33BEC600906C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0CF514C1E33BEC600906C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CF514D1E33BEC600906C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0CF51501E33BEC600906C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0CF51511E33BEC600906C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0CF51531E33BEC600906C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AYAPrimesCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.AYAPrimesCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0CF51541E33BEC600906C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AYAPrimesCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.AYAPrimesCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0CF51611E349F4F00906C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYAPrimesCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.AYAPrimesCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYAPrimesCounter.app/AYAPrimesCounter";
+			};
+			name = Debug;
+		};
+		C0CF51621E349F4F00906C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYAPrimesCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.AYAPrimesCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYAPrimesCounter.app/AYAPrimesCounter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0CF51361E33BEC500906C12 /* Build configuration list for PBXProject "AYAPrimesCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CF51501E33BEC600906C12 /* Debug */,
+				C0CF51511E33BEC600906C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CF51521E33BEC600906C12 /* Build configuration list for PBXNativeTarget "AYAPrimesCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CF51531E33BEC600906C12 /* Debug */,
+				C0CF51541E33BEC600906C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0CF51601E349F4F00906C12 /* Build configuration list for PBXNativeTarget "AYAPrimesCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CF51611E349F4F00906C12 /* Debug */,
+				C0CF51621E349F4F00906C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0CF51331E33BEC500906C12 /* Project object */;
+}
